@@ -20,11 +20,11 @@ console.log(numberstring("flower"));
 console.log(numberstring("Supercalifragaliciousexpealidocious"));
 
 
-function letterfind(){
+function letterfind(letterinder){
     
-    for(var i=0; i<=letterfind.length; i++) {
-        if(letterfind[i].startswith('ph')) {
-            return([i]);
+    for(var i=0; i<=letterfinder.length; i++) {
+        if(letterfinder[i].startswith('ph')) {
+            return letterfinder([i]);
         }
     }
     console.log("Does not start with ph");
